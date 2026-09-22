@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Novai Technology Business Platform | Osama Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+</head>
+<body>
+  <div class="bg-animation">
+    <span></span><span></span><span></span><span></span>
+  </div>
+
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">Osama<span>Portfolio</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html"><i class="fa-solid fa-house"></i>Home</a></li>
+        <li><a href="about.html"><i class="fa-solid fa-user"></i>About</a></li>
+        <li><a class="active" href="projects.html"><i class="fa-solid fa-diagram-project"></i>Projects</a></li>
+        <li><a href="skills.html"><i class="fa-solid fa-code"></i>Skills</a></li>
+        <li><a href="resume.html"><i class="fa-solid fa-file-lines"></i>CV</a></li>
+        <li><a href="contact.html"><i class="fa-solid fa-envelope"></i>Contact</a></li>
+      </ul>
+      <button id="menu-toggle" class="menu-toggle">☰</button>
+    </nav>
+  </header>
+
+  <main class="page-container">
+    <a href="projects.html" class="back-link reveal">← Back to Projects</a>
+
+    <section class="section-card glass-card reveal">
+      <h1><i class="fa-solid fa-building"></i> Novai Technology Business Platform</h1>
+      <p>
+        Developed the official bilingual Arabic and English marketing website for Novai Technology.
+        The Django platform presents the company’s services, portfolio, pricing, and offices while
+        allowing the team to manage content and customer enquiries through a compact CMS and REST API.
+      </p>
+
+      <div class="project-detail-meta">
+        <p><i class="fa-solid fa-folder-open"></i> <strong>Category:</strong> Full-Stack Web Development</p>
+        <p><i class="fa-solid fa-screwdriver-wrench"></i> <strong>Tools:</strong> Python, Django, Django REST Framework, PostgreSQL, HTML, CSS, JavaScript</p>
+        <p><i class="fa-solid fa-user-gear"></i> <strong>Role:</strong> Full-stack development, CMS architecture, API integration, responsive UI, security, and deployment</p>
+      </div>
+
+      <h2><i class="fa-solid fa-circle-play"></i> Project Demo</h2>
+      <div class="video-container">
+        <video controls preload="metadata">
+          <!-- Add the demo file to videos/novai-technology-demo.mp4 -->
+          <source src="videos/Novai_Tech_4K_UHD.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <h2><i class="fa-solid fa-star"></i> Project Features</h2>
+      <ul>
+        <li>Complete Arabic and English experience across the public website</li>
+        <li>CMS-managed services, portfolio items, pricing packages, and city offices</li>
+        <li>Responsive layouts for desktop, tablet, and mobile visitors</li>
+        <li>Validated contact form with database storage and instant email notifications</li>
+        <li>Libya-focused phone validation using the +218 dialing format</li>
+        <li>Portfolio showcase for the company’s mobile, web, and digital projects</li>
+        <li>Search-engine support through automatically generated robots.txt and sitemap.xml files</li>
+        <li>Optional Cloudinary integration for persistent uploaded media</li>
+      </ul>
+
+      <h2><i class="fa-solid fa-gears"></i> Technical Highlights</h2>
+      <ul>
+        <li>Django application architecture divided into leads, pages, product, and services modules</li>
+        <li>Django REST Framework endpoint for validated lead submission</li>
+        <li>PostgreSQL database integration for production data</li>
+        <li>Brevo API integration for contact-form email delivery</li>
+        <li>Production delivery through Gunicorn and WhiteNoise</li>
+        <li>Render deployment blueprint with automatic builds and database migrations</li>
+        <li>HTTPS enforcement, HSTS, secure cookies, API rate limiting, and spam protection</li>
+        <li>Environment-based configuration for secrets, hosts, email, database, and cloud media</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-socials">
+      <a href="https://github.com/OsamaMElsagezli" target="_blank" aria-label="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/osama-sakizli/" target="_blank" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
+      <a href="https://wa.me/905539060341" target="_blank" aria-label="WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+      <a href="https://www.facebook.com/osama.sagezli" target="_blank" aria-label="Facebook">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>
+    </div>
+    <p>© 2026 Osama Mustafa Elsagezli. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
